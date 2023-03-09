@@ -1,55 +1,3 @@
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computer Game</title>
-
-    <style>
-
-* {
-  margin: 20px;
-  padding: 10px;
-lef-margin:50px;
-  text-align: centre;
-}
-
-.choiceBtn {
-width: 150px;
-  height: 50px;
-  background: none;
-  border: none;
-  color: rgb(224, 224, 224);
-  font-size: 20px;
-  background: rgb(45, 117, 96);
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-</style>
-
-<h>----------------------------------------------</h>
-<span style='font-size:120px;'>&#9994;&#9995;&#9996;</span>   
-<h>----------------------------------------------</h>
-<h1><center>YOUR GAME OF ROCK PAPER SCISSORS</center></h1>  
-
-
-</head>
-<body>
-    <div id="gameDiv">
-        <h1 class="gameText" id="yourText">Your choice: </h1>
-               <button class="choiceBtn">ROCK</button>
-        <button class="choiceBtn">PAPER</button>
-        <button class="choiceBtn">SCISSORS</button>
-
- <h1 class="gameText" id="robotText">Robot choice: </h1>
-        <h2 class="gameText" id="resultText">Here is the result: </h2>
-
-    </div>
-    <script>
 const yourText = document.querySelector("#yourText");
 const robotText = document.querySelector("#robotText");
 const resultText = document.querySelector("#resultText");
@@ -97,7 +45,3 @@ function checkWinner(){
       return (your == "ROCK") ? "Congrats! You Win!" : "You Lose! Try Again!"
     }
 }
-</script>
-</body>
-</html>
-
