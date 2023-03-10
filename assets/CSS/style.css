@@ -34,5 +34,16 @@
     align-items: center;
   }
 
+  #score-box{
+    text-align: center;
+    background-color: green;
+    color: white;
+  
+  }
+
+  #score-box h2 {
+    display: inline;
+  }
+
 
   
