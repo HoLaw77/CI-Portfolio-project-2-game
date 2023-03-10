@@ -18,6 +18,11 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     if (resultText.textContent === "You Lose! Try Again!"){incrementLose()};
 }));
 
+let restartBtn = document.querySelector(".restartBtn")
+restartBtn.forEach(button => button.addEventListener('click', () => {
+  clear()
+}))
+
 function computerTurn(){
 
     const randNum = Math.floor(Math.random() * 3) + 1;
