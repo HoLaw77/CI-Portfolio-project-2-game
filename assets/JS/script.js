@@ -18,10 +18,13 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     if (resultText.textContent === "You Lose! Try Again!"){incrementLose()};
 }));
 
-let restartBtn = document.querySelector(".restartBtn")
-restartBtn.forEach(button => button.addEventListener('click', () => {
-  clear()
-}))
+let restartBtn = document.getElementsByClassName("restartBtn");
+restartBtn.addEventListener("click", 
+function restartGame(){
+ ranNum = 0;
+ computerTurn();
+ checkWinner()
+});
 
 function computerTurn(){
 
