@@ -37,7 +37,7 @@
 
   .choiceBtn {
   width: 150px;
-    height: 50px;
+    height: 100px;
     background: none;
     border: none;
     color: rgb(224, 224, 224);
@@ -49,7 +49,8 @@
   }
 
   i {
-    color: brown;
+    color: rgb(255, 213, 0);
+    font-size: 200%;
   }
 
   #gameDiv {
