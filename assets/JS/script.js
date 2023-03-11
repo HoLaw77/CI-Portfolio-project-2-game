@@ -21,9 +21,8 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
 let restartBtn = document.getElementsByClassName("restartBtn");
 restartBtn.addEventListener("click", 
 function restartGame(){
- ranNum = 0;
  computerTurn();
- checkWinner()
+ checkWinner();
 });
 
 function computerTurn(){
