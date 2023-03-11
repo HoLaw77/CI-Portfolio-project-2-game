@@ -48,6 +48,10 @@
     display: inline-block;
   }
 
+  i {
+    color: brown;
+  }
+
   #gameDiv {
     text-align: center;
   }
