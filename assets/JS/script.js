@@ -20,9 +20,8 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
 
 let restartBtn = document.getElementsByClassName("restartBtn");
 restartBtn.addEventListener("click", 
-function restartGame(){
- computerTurn();
- checkWinner();
+function(){
+  window.location.reload();
 });
 
 function computerTurn(){
