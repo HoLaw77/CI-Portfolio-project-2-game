@@ -1,4 +1,4 @@
-const yourText = document.getElementById("yourText"); /*document.querySelector()*/
+const yourText = document.getElementById("yourText"); 
 const robotText = document.getElementById("robotText");
 const resultText = document.getElementById("resultText");
 const choiceBtns = document.getElementsByClassName("choiceBtn");/*choiceBtn*/
