@@ -101,7 +101,14 @@
      }
 
   }
+   
+  #robotText{
+    size: 50%;
+  }
 
+  #resultText{
+    size: 50%;
+  }
   }
     
   
