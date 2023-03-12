@@ -58,7 +58,10 @@ players can play by clicking the button representing paper, scissor, and rock re
 <h2>Solve bug</h2>
 <ul>
 
-<li>Example would be the starting slash before assets in "/assets/image/" in the img element.</li>
+<li>I discover that some of my photo can not be positioned in the center of the page using align items.</li>
+<li>After checking in the W3school, I used the display:flex method to avoid adding padding to the image and fix it in the center of page even the media screen size changes.</li>
+<li>I also face difficulty in setting up a restart button. After revising the usage of window.location.reload(), I used this in index.html to avoid writing this function in script.js.</li>
+
 </ul>
 
 <br>
@@ -91,6 +94,9 @@ The link is here <a href="https://holaw77.github.io/CI-Portfolio-project-2-game/
 <h2>Content</h2>
 
 The Code to make increment function were taken from the CI LoveMath project 
+
+For line 1- 19 in the sciprt.js has make reference to the method of forEach() in this video
+https://www.youtube.com/watch?v=n1_vHArDBRA
 
 <h2>Media</h2>
 

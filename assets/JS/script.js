@@ -55,21 +55,21 @@ function checkWinner(){
 
 function incrementWin() {
 
-  let oldScore = parseInt(document.getElementById("win").innerText);
-  document.getElementById("win").innerText = ++oldScore;
+  let score = parseInt(document.getElementById("win").innerText);
+  document.getElementById("win").innerText = ++score;
 
 }
 
 function incrementDraw() {
 
-  let oldScore = parseInt(document.getElementById("draw").innerText);
-  document.getElementById("draw").innerText = ++oldScore;
+  let score = parseInt(document.getElementById("draw").innerText);
+  document.getElementById("draw").innerText = ++score;
 
 }
 
 function incrementLose() {
 
-  let oldScore = parseInt(document.getElementById("lose").innerText);
-  document.getElementById("lose").innerText = ++oldScore;
+  let score = parseInt(document.getElementById("lose").innerText);
+  document.getElementById("lose").innerText = ++score;
 
 }
