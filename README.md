@@ -54,7 +54,6 @@ players can play by clicking the button representing paper, scissor, and rock re
 <li>I confirmed the project is responsive, look goods and function on all standard size screen using devtool device tool bar.</li>
 </ul>
 <br>
-<br>
 <h1>Bugs</h1>
 <h2>Solve bug</h2>
 <ul>
@@ -87,8 +86,24 @@ The page is deployed to github page, following the below steps.
 The link is here <a href="https://holaw77.github.io/CI-Portfolio-project-2-game/">Paper Scissor Rock Game</a>
 <br>
 <br>
+<h1>Credit</h1>
 
+<h2>Content</h2>
 
+The Code to make increment function were taken from the CI LoveMath project 
 
-https://freesvg.org/rock-paper-scissors
+<h2>Media</h2>
+
+<h3>Icons are from font-awesome</h3> 
+<a href="https://fontawesome.com/">https://fontawesome.com/</a>
+
+<h3>The Lato and Syncopate fonts are from Google fonts</h3>
+<a href ="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Syncopate&display=swap">https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Syncopate&display=swap</a>
+
+<h2>Photos reference</h2>
+
+<h3>Index.html</h3>
+
+<a href="https://freesvg.org/rock-paper-scissors">https://freesvg.org/rock-paper-scissors</a>
+
 https://pixexid.com/image/cyberpunk-moon-city-with-bright-lights-a7qp2vvw
