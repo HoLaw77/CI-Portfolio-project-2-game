@@ -26,7 +26,15 @@ h2{
   font-family: Syncopate, sans-serif;
 }
 
+#yourText {
+  color: rgb(201, 235, 51);
+}
+
 #resultText{
+  color: rgb(201, 235, 51);
+}
+
+#robotText{
   color: rgb(201, 235, 51);
 }
 #gameDiv {
