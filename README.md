@@ -1,7 +1,7 @@
 <img src="assets/documentation/logo-photo.png" alt="logo">
 <br>
 <br>
-Paper scissor rock game is a game enable player to play paper scissor rock game with computer robot.
+Paper Scissor Rock Game is a game enable player to play paper scissor rock game with computer robot.
 
 players can play by clicking the button representing paper, scissor, and rock respectively. Player's choice will be printed in the "Your choice" section. Upon clicking, computer will generate a random choice which will be printed in the "robot choice" section.
 
@@ -73,6 +73,19 @@ players can play by clicking the button representing paper, scissor, and rock re
 </ul>
 <br>
 <img src="assets/documentation/lighthouse.png" alt="lighthouse accessibility check">
+<br>
+<h1>Deployment</h1>
+
+<ul>
+The page is deployed to github page, following the below steps.
+<li>Navigate to setting in Github page</li>
+<li>Select page and select main branch from the dropdown menu</li>
+<li>Once the link is deployed, the link is generated in Github page.</li>
+
+</ul>
+<br>
+The link is here <a href="https://holaw77.github.io/CI-Portfolio-project-2-game/">Paper Scissor Rock Game</a>
+<br>
 <br>
 
 
