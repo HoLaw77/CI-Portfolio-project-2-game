@@ -5,6 +5,10 @@
     text-align: centre;
   }
 
+  #logo{
+    padding-left: 550px;
+  }
+
 #main-area {
   height: 550px;
   background-image: url(../image/cyberpunk-moon-city-with-bright-lights-a7qp2vvw.jpeg);
