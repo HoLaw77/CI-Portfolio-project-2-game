@@ -73,7 +73,7 @@
     padding: 10px;
   }
 
-  @media screen and (max-width: 480px){
+  @media screen and (max-width: 500px){
    #main-area {
   height: 800px;
 }
