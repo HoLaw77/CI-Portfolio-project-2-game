@@ -1,4 +1,6 @@
-
+<img src="assets/documentation/logo-photo.png", alt="logo">
+<br>
+<br>
 Paper scissor rock game is a game enable player to play paper scissor rock game with computer robot.
 
 
