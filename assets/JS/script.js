@@ -38,18 +38,16 @@ function computerTurn(){
 function checkWinner(){
     if(your == robot){
       return "Draw!";
-    } else
-    if(robot == "ROCK"){
+    } else if(robot == "ROCK"){
       return (your == "PAPER") ? "Congrats! You Win!" : "You Lose! Try Again!"
-    } else
-    if(robot == "PAPER"){
+    } 
+    else if(robot == "PAPER"){
       return (your == "SCISSORS") ? "Congrats! You Win!" : "You Lose! Try Again!"
-    } else
-    if(robot == "SCISSORS"){
+    } 
+    else if(robot == "SCISSORS"){
       return (your == "ROCK") ? "Congrats! You Win!" : "You Lose! Try Again!"
     } 
-   
-}
+   }
 
 
 function incrementWin() {
