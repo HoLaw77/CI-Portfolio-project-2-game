@@ -1,6 +1,6 @@
-const yourText = document.getElementById("yourText"); 
-const robotText = document.getElementById("robotText");
-const resultText = document.getElementById("gameResult");
+const yourText = document.querySelector("#yourText"); 
+const robotText = document.querySelector("#robotText");
+const resultText = document.querySelector("#gameResult");
 const choiceBtns = document.querySelectorAll(".choiceBtn");
 let your;
 let robot;
