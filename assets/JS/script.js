@@ -48,8 +48,7 @@ function checkWinner(){
     else if(robot == "SCISSORS"){
       return (your == "ROCK") ? "Congrats! You Win!" : "You Lose! Try Again!"
     }
-
-    
+   
 }
 
 
