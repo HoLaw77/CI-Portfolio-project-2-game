@@ -1,7 +1,7 @@
-const yourText = document.querySelector("#yourText");
-const robotText = document.querySelector("#robotText");
-const resultText = document.querySelector("#resultText");
-const choiceBtns = document.querySelectorAll(".choiceBtn");
+const yourText = document.getElementById("yourText"); /*document.querySelector()*/
+const robotText = document.getElementById("robotText");
+const resultText = document.getElementById("resultText");
+const choiceBtns = document.getElementsByClassName("choiceBtn");/*choiceBtn*/
 let your;
 let robot;
 let result;
