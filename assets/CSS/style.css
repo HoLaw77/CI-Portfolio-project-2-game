@@ -91,6 +91,9 @@
   }
   
   @media screen and (max-width: 320px){
+    #main-area {
+      height: 800px;
+    }
     .choiceBtn{
    
       display: grid;
