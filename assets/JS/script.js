@@ -1,4 +1,4 @@
-const yourText = document.querySelector("#yourText"); 
+const yourText = document.querySelector("#yourText");
 const robotText = document.querySelector("#robotText");
 const resultText = document.querySelector("#resultText");
 const choiceBtns = document.querySelectorAll(".choiceBtn");
@@ -18,36 +18,37 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     if (resultText.textContent === "You Lose! Try Again!"){incrementLose()};
 }));
 
-
 function computerTurn(){
 
-    const randNum = Math.floor(Math.random() * 3) + 1;
+  const randNum = Math.floor(Math.random() * 3) + 1;
 
-    switch(randNum){
-      case 1:
-        robot = "ROCK";
-        break;
-      case 2:
-        robot = "PAPER";
-        break;
-      case 3:
-        robot = "SCISSORS";
-        break;
-    }
+  switch(randNum){
+    case 1:
+      robot = "ROCK";
+      break;
+    case 2:
+      robot = "PAPER";
+      break;
+    case 3:
+      robot = "SCISSORS";
+      break;
+  }
 }
 function checkWinner(){
-    if(your == robot){
-      return "Draw!";
-    } else if(robot == "ROCK"){
-      return (your == "PAPER") ? "Congrats! You Win!" : "You Lose! Try Again!"
-    } 
-    else if(robot == "PAPER"){
-      return (your == "SCISSORS") ? "Congrats! You Win!" : "You Lose! Try Again!"
-    } 
-    else if(robot == "SCISSORS"){
-      return (your == "ROCK") ? "Congrats! You Win!" : "You Lose! Try Again!"
-    } 
-   }
+  if(your == robot){
+    return "Draw!";
+  }
+  else if(robot == "ROCK"){
+    return (your == "PAPER") ? "Congrats! You Win!" : "You Lose! Try Again!"
+  }
+  else if(robot == "PAPER"){
+    return (your == "SCISSORS") ? "Congrats! You Win!" : "You Lose! Try Again!"
+  }
+  else if(robot == "SCISSORS"){
+    return (your == "ROCK") ? "Congrats! You Win!" : "You Lose! Try Again!"
+  }
+}
+
 
 
 function incrementWin() {
