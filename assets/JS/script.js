@@ -1,7 +1,7 @@
 const yourText = document.getElementById("yourText"); 
 const robotText = document.getElementById("robotText");
 const resultText = document.getElementById("gameResult");
-const choiceBtns = document.querySelectorAll("choiceBtn");
+const choiceBtns = document.querySelectorAll(".choiceBtn");
 let your;
 let robot;
 let result;
