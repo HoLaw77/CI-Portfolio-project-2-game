@@ -36,7 +36,7 @@ function computerTurn(){
     }
 }
 function checkWinner(){
-    if(your == robot){
+    if(your === robot){
       return "Draw!";
     }
     else if(robot == "ROCK"){
