@@ -90,7 +90,16 @@
     height: 200px;
   }
   
+  @media screen and (max-width: 320px){
+    .choiceBtn{
+   
+      display: grid;
+      align-items: center;
+      margin-right: 100px;
+      margin-bottom: 10px;
+     }
 
+  }
 
   }
     
