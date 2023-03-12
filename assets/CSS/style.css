@@ -7,7 +7,8 @@
 
 #main-area {
   height: 550px;
-  background-color: rgb(36, 36, 225);
+  background-image: url(../image/cyberpunk-moon-city-with-bright-lights-a7qp2vvw.jpeg);
+  background-position: center;
 
 }
 
@@ -49,7 +50,7 @@ h2{ color: white;}
     border: none;
     color: rgb(224, 224, 224);
     font-size: 20px;
-    background: rgb(59, 152, 124);
+    background: rgb(102, 228, 190);
     border-radius: 3px;
     cursor: pointer;
     display: inline-block;
@@ -70,7 +71,7 @@ h2{ color: white;}
 
   #score-box{
     text-align: center;
-    background-color: green;
+    background-color: rgb(92, 0, 128);
     color: white;
   
   }
