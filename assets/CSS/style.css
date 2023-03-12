@@ -1,9 +1,4 @@
-* {
-    /*margin: 20px;*/
-    /*padding: 8px;*/
-    /*margin:50px;*/
-    text-align: centre;
-  }
+
 
   #logo{
     padding-left: 550px;
@@ -19,7 +14,6 @@
 #heading {
     text-align: center;
     font-size: 200% ;
-    padding: clear;
     font-family: Syncopate, sans-serif;
     color: lightblue;
     background-color: blueviolet;
@@ -41,10 +35,7 @@ h2{
 #robotText{
   color: rgb(201, 235, 51);
 }
-#gameDiv {
-  padding: clear;
 
-}
 
 #score-box {
   padding-top: 10px;
@@ -128,19 +119,10 @@ h2{
    
       display: grid;
       align-items: center;
-      margin-left: clear;
       margin-right: 200px;
       margin-bottom: 10px;
      }
 
-  }
-   
-  #robotText{
-    size: 50%;
-  }
-
-  #resultText{
-    size: 50%;
   }
   #score-box{
    margin-top: 15px;
