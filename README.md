@@ -71,6 +71,9 @@ players can play by clicking the button representing paper, scissor, and rock re
 </li>
 <li>Accesssibility: I confirm colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. </li>
 </ul>
+<br>
+<img src="assets/documentation/lighthouse.png" alt="lighthouse accessibility check">
+<br>
 
 
 
