@@ -1,12 +1,12 @@
 const yourText = document.getElementById("yourText"); 
 const robotText = document.getElementById("robotText");
 const resultText = document.getElementById("gameResult");
-const optionBtns = document.getElementsByClassName("optionBtn");
+const choiceBtns = document.getElementsByClassName("choiceBtn");
 let your;
 let robot;
 let result;
 
-optionBtns.forEach(button => button.addEventListener("click", () => {
+choiceBtns.forEach(button => button.addEventListener("click", () => {
 
     your = button.textContent;
     computerTurn();
