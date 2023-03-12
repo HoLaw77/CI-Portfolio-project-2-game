@@ -21,10 +21,6 @@
     background-color: blueviolet;
 }
 
-img {
-  border-radius: 4px;
-}
-
 h2{ 
   color: lightblue;
   font-family: Syncopate, sans-serif;
@@ -110,11 +106,11 @@ h2{
   
   @media screen and (max-width: 320px){
     #main-area {
-      height: 800px;
+      height: 900px;
     }
 
     #gameDiv{
-      height: 200px;
+      height: 500px;
     }
     .choiceBtn{
    
@@ -133,6 +129,9 @@ h2{
 
   #resultText{
     size: 50%;
+  }
+  #score-box{
+   margin-top: 15px;
   }
   }
     
