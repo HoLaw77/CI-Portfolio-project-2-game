@@ -94,6 +94,10 @@
     #main-area {
       height: 800px;
     }
+
+    #gameDiv{
+      height: 200px;
+    }
     .choiceBtn{
    
       display: grid;
